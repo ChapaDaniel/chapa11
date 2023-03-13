@@ -1,0 +1,7 @@
+{
+  "name": "Chapa1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Lista de Tareas      "Lista": Unknown word.
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-progress-bar></ion-progress-bar>
+<ion-item>
+  <ion-input placeholder="Agregar Tarea"[(ngModel)]="newTask"></ion-input> "Agregar"
+<ion-button slot="end "(click)="addTas()k" color="green"></ion-button>  
+</ion-item>
+  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content>
